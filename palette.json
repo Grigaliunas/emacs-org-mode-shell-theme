@@ -1,0 +1,20 @@
+{
+  "bg0": "#1c1c1c",
+  "bg1": "#282828",
+  "bg2": "#2a2a2a",
+  "bg3": "#2f2f2f",
+  "bg4": "#343434",
+  "bg5": "#383838",
+  "dim": "#505050",
+  "border": "#696969",
+  "fg": "#d0d0d0",
+  "muted": "#c0c0c0",
+  "fg2": "#dcdccc",
+  "cyan": "#7cb8bb",
+  "bright_cyan": "#8cd0d3",
+  "link": "#93e0e3",
+  "green": "#6fb86f",
+  "comment": "#7f9f7f",
+  "yellow": "#f0dfaf",
+  "red": "#cc9393"
+}
