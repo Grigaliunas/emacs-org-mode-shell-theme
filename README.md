@@ -9,6 +9,8 @@ It includes two variants:
 
 Oh My Zsh is for **zsh**, not Bash. The Bash prompt is included separately for users who want the same look in `.bashrc`.
 
+![The Emacs Org Mode prompt in zsh: a green ok status, cyan user@host, green working directory, and the git branch with red unstaged and yellow staged markers, above a yellow lambda prompt glyph](docs/prompt.png)
+
 ## Palette
 
 | Role | Hex |
@@ -126,6 +128,12 @@ Git markers:
 
 The prompts use 24-bit ANSI colors / zsh `%F{#RRGGBB}` color notation. For best results, use a terminal profile that supports truecolor, such as iTerm2, Ghostty, Kitty, Alacritty, WezTerm, or modern GNOME Terminal.
 
+## Font note
+
+The git segment uses the Powerline branch glyph (`U+E0A0`), so the prompt needs a
+patched font — any [Nerd Font](https://www.nerdfonts.com/) or Powerline font will
+do. Without one, the branch shows as a missing-glyph box.
+
 ## Files
 
 ```text
@@ -136,6 +144,8 @@ emacs-org-mode-shell-theme/
     emacs-org-mode.bash
   extras/
     emacs-org-mode.dircolors
+  docs/
+    prompt.png
   install.sh
   palette.json
   README.md
