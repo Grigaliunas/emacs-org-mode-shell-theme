@@ -142,6 +142,21 @@ emacs-org-mode-shell-theme/
   LICENSE
 ```
 
+## Verifying files
+
+```bash
+shasum -a 256 -c CHECKSUMS.txt
+```
+
+## Development
+
+`CHECKSUMS.txt` is regenerated automatically by a pre-commit hook. Git does not
+install hooks on clone, so enable it once per checkout:
+
+```bash
+git config core.hooksPath .githooks
+```
+
 ## License
 
 [MIT](LICENSE)
