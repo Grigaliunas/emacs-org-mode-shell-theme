@@ -139,4 +139,9 @@ emacs-org-mode-shell-theme/
   install.sh
   palette.json
   README.md
+  LICENSE
 ```
+
+## License
+
+[MIT](LICENSE)
